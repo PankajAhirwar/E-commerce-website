@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,200;1,300&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+
+    <div class="header">
+
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+               <a href="index.html"><img src="RedStore_Img/images/logo.png" width="125px">
+               </a>
+            </div>
+       
+           <nav>
+               <ul id="MenuItems">
+                   <li><a href="index.html">Home</a></li>
+                   <li><a href="product.html">Product</a></li>
+                   <li><a href="">About</a></li>
+                   <li><a href="">Contect</a></li>
+                   <li><a href="account.html">Account</a></li>
+               </ul>
+           </nav>
+           <a href="card.html"><img src="RedStore_Img/images/cart.png" width="30px" height="30px">
+           </a>
+           <img src="RedStore_Img/images/menu.png" class="menu-icon" onclick="menutoggle()">
+           </div>
+    </div>
+
+    <div class="row">
+        <div class="col-2">
+            <h1>Give Your Workout<br>A New Style</h1>
+            <p>Succeess in not about greatness. It's about consistency. <br>Consistent hard work gains success.Greatness will come.</p>
+
+            <a href="" class="btn">Explore Now  &#8594;</a>
+
+        </div>
+        <div class="col-2">
+            <img src="RedStore_Img/images/image1.png" alt="">
+
+        </div>
+    </div>
+
+</div>
+
+<!----------------------feature categories-------------->
+
+<div class="categories">
+
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <img src="RedStore_Img/images/category-1.jpg" alt="">
+            </div>
+            <div class="col-3">
+                <img src="RedStore_Img/images/category-2.jpg">
+            </div>
+            <div class="col-3">
+                <img src="RedStore_Img/images/category-3.jpg">
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<!----------------------feature product-------------->
+
+<div class="small-container">
+    <h2 class="title">Features Products</h2>
+    <div class="row">
+        <div class="col-4">
+           <a href="productdetail.html"> <img src="RedStore_Img/images/product-1.jpg"></a>
+            <a href="productdetail.html"><h4>Red Printed T-Shirt</h4></a>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half"></i>
+                
+            </div>
+            <p>$50.00</p>
+        </div>
+        <div class="col-4">
+            <img src="RedStore_Img/images/product-2.jpg" alt="">
+            <h4>Black Shoes</h4>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                
+            </div>
+            <p>$70.00</p>
+        </div>
+        <div class="col-4">
+            <img src="RedStore_Img/images/product-3.jpg" alt="">
+            <h4>Trouser</h4>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+
+                
+            </div>
+            <p>$45.00</p>
+        </div>
+        <div class="col-4">
+            <img src="RedStore_Img/images/product-4.jpg" alt="">
+            <h4>Blue T-Shirt</h4>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half"></i>
+                
+            </div>
+            <p>$55.00</p>
+        </div>
+    </div>
+    <h2 class="title">Latest Products</h2>
+    <div class="row">
+        <div class="col-4">
+            <img src="RedStore_Img/images/product-5.jpg" alt="">
+            <h4>White Shoes</h4>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half"></i>
+                
+            </div>
+            <p>$50.00</p>
+        </div>
+        <div class="col-4">
+            <img src="RedStore_Img/images/product-6.jpg" alt="">
+            <h4>Black T-Shirt</h4>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                
+            </div>
+            <p>$70.00</p>
+        </div>
+        <div class="col-4">
+            <img src="RedStore_Img/images/product-7.jpg" alt="">
+            <h4>Socks</h4>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+
+                
+            </div>
+            <p>$45.00</p>
+        </div>
+        <div class="col-4">
+            <img src="RedStore_Img/images/product-8.jpg" alt="">
+            <h4>Watch</h4>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half"></i>
+                
+            </div>
+            <p>$55.00</p>
+        </div>
+        <div class="col-4">
+            <img src="RedStore_Img/images/product-9.jpg" alt="">
+            <h4>Watch</h4>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half"></i>
+                
+            </div>
+            <p>$55.00</p>
+        </div>
+        <div class="col-4">
+            <img src="RedStore_Img/images/product-10.jpg" alt="">
+            <h4>Black-Shoes</h4>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half"></i>
+                
+            </div>
+            <p>$55.00</p>
+        </div>
+        <div class="col-4">
+            <img src="RedStore_Img/images/product-11.jpg" alt="">
+            <h4>Sneakers</h4>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half"></i>
+                
+            </div>
+            <p>$55.00</p>
+        </div>
+        <div class="col-4">
+            <img src="RedStore_Img/images/product-12.jpg" alt="">
+            <h4>Trouser</h4>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half"></i>
+            </div>
+            <p>$55.00</p>
+        </div>
+        
+    </div>
+</div>
+
+<!---------------------------Offers------------------------>
+
+<div class="offer">
+
+<div class="small-container">
+<div class="row">
+    <div class="col-2">
+     <img src="RedStore_Img/images/exclusive.png" class="offer-img">
+    </div>
+    <div class="col-2">
+        <p>Exclusively Available on RedStore</p>
+        <small>
+            The mi Smart Band 4 Features a 39.9% larger(than MI Band 3) Ampled color full-touch display with adjustable brightness, so everything is clear as can be.
+        </small>
+        <a href="" class="btn">Buy Now &#8594;</a>
+    </div>
+</div>
+</div>
+</div>
+
+<!--------------Testimonial------------ -->
+
+<div class="testimonial">
+<div class="small-container">
+    <div class="row">
+        <div class="col-3">
+            <i class="fa fa-quote-left"></i>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, dignissimos laudantium perspiciatis atque perferendis et doloribus reiciendis sequi. Corrupti iusto fugiat beatae quia sunt ducimus.</p>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half"></i>
+            </div>
+            <img src="RedStore_Img/images/user-1.png">
+            <h3>Sean Parker</h3>
+        </div>
+        <div class="col-3">
+            <i class="fa fa-quote-left"></i>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, dignissimos laudantium perspiciatis atque perferendis et doloribus reiciendis sequi. Corrupti iusto fugiat beatae quia sunt ducimus.</p>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half"></i>
+            </div>
+            <img src="RedStore_Img/images/user-2.png">
+            <h3>Mike Smith</h3>
+        </div>
+        <div class="col-3">
+            <i class="fa fa-quote-left"></i>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, dignissimos laudantium perspiciatis atque perferendis et doloribus reiciendis sequi. Corrupti iusto fugiat beatae quia sunt ducimus.</p>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half"></i>
+            </div>
+            <img src="RedStore_Img/images/user-3.png">
+            <h3>Mabel Jeo</h3>
+        </div>
+    </div>
+</div>
+</div>
+
+<!-- ----------------Brand----------------->
+
+<div class="brands">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-5">
+                <img src="RedStore_Img/images/logo-godrej.png">
+            </div>
+            <div class="col-5">
+                <img src="RedStore_Img/images/logo-oppo.png">
+            </div>
+            <div class="col-5">
+                <img src="RedStore_Img/images/logo-coca-cola.png">
+            </div>
+            <div class="col-5">
+                <img src="RedStore_Img/images/logo-paypal.png">
+            </div>
+            <div class="col-5">
+                <img src="RedStore_Img/images/logo-philips.png">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- -------------------Footer-------------------->
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App fpor Android and ios mobile</p>
+                <div class="app-logo">
+                    <img src="RedStore_Img/images/play-store.png" >
+                    <img src="RedStore_Img/images/app-store.png" >
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="RedStore_Img/images/logo-white.png" alt="">
+                <p>Our Purpose is to sustainably make the pleasure and benefits of sports accessible to the many</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            
+            <div class="footer-col-4">
+                <h3>Follow us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>YouTube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="Copyright">Copyright ⓒ</p>
+    </div>
+</div>
+
+
+<!-- ------------------------javascript  for toggle menu-------->
+
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+    MenuItems.style.maxHeight = "0px"
+
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px")
+        {
+            MenuItems.style.maxHeight = "200px"
+        }
+        else{
+            MenuItems.style.maxHeight = "0px"
+        }
+    }
+</script>
+    
+</body>
+</html>
